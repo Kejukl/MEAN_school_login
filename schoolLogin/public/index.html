@@ -1,0 +1,48 @@
+<html>
+    <title>Base Page</title>
+    <link href="index.css" rel="stylesheet "/>
+    <script src="index.js"></script>
+    <body>
+        <h1>Welcome to express app</h1>
+        <hr>
+        <h2>User Table</h2>
+        <input type="button" class= "button" value="GET  ALL USER" onclick="getUsers()">
+        <hr>
+        <input type="text" placeholder="name" id="user_name_searched"  value="whom">
+        <input type="button" class="button" value="Get pupil" onclick=getUser()>
+
+        <table border="1">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>name</th>
+                    <th>age</th>
+                    <th>class</th>
+                    <th>isStudent</th>
+                </tr>
+            </thead>
+            <tbody id="usersTable">
+            </tbody>
+        </table>
+        <hr>
+        <hr>
+    <h2> Posting </h2>
+    <input type="text" placeholder="ID" id="user_id" value=1>
+    <input type="text" placeholder="name" id="user_name"  value="keja">
+    <input type= "number" placeholder="age" id="user_age" value=25>
+    <input type="text" placeholder="classYear" id="user_class" value='X'>               
+    <select id="isStudent" >
+        <option value="1">Student</option>
+        <option value="0">Not Student</option>
+    </select>
+    <input type="button" class="button" value="Post User" onclick=postUsers()>
+
+    <hr>
+    <hr>
+    <hr>
+
+    </body>
+
+
+</html>
+

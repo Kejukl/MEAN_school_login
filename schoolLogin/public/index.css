@@ -1,0 +1,39 @@
+body{
+    font-size: 12px;
+    font: Arial;
+    color:rgb(205, 255, 192);
+    background-color: #0099cc
+   
+}
+.button {
+    background-color:#ffcc00; /* blue type */
+    border: none;
+    color: #3333cc;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+
+  }
+
+  table, td, th {
+    border: 2px solid rgb(7, 21, 211);
+    text-align:center;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th {
+    height: 25px;
+  }
+  th {
+    height: 10px;
+  }
